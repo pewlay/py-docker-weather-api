@@ -1,3 +1,7 @@
+import os
+import requests
+
+
 def get_weather() -> None:
     api_key = os.getenv("API_KEY")
 
